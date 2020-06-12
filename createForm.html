@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+
+
+
+
+<body class="bg-light">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+  <!-- Navbar brand -->
+  <a class="navbar-brand" href="#">Navbar</a>
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Item1
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Item2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Item3</a>
+      </li>
+
+      <!-- Dropdown -->
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Item4</a>
+        <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">Item4.1</a>
+          <a class="dropdown-item" href="#">Item4.2</a>
+          <a class="dropdown-item" href="#">Item4.3</a>
+        </div>
+      </li>
+
+    </ul>
+    <!-- Links -->
+
+    <form class="form-inline">
+      <div class="md-form my-0">
+        <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      </div>
+    </form>
+  </div>
+  <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+    <div class="container">
+      <div class="py-5 text-center">
+        <img class="d-block mx-auto mb-4" src="http://www.resetyourbody.com/wp-content/uploads/COMPANY_LOGO/logo-default.png" alt="" width="72" height="72">
+        <h2>Header</h2>
+        <p class="lead">Sub Header</p>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md-2 order-md-1 mb-2">
+        </div>
+        <div class="col-md-8 order-md-2">
+          <h4 class="mb-3">Create Metting</h4>
+          <form class="needs-validation" novalidate="">
+            <div class="mb-3">
+             
+                <label for="classroomid">Classroom Id</label>
+                <input type="text" class="form-control" id="classroomid" placeholder=" class Id" value="" required="">
+                <div class="invalid-feedback">
+                  Valid class number is required.
+                </div>
+             
+             
+            </div>
+
+           <div class="mb-3">
+             
+                <label for="Teacherid">Teacher Id</label>
+                <input type="text" class="form-control" id="Teacherid" placeholder="Teacher Id" value="" required="">
+                <div class="invalid-feedback">
+                  Valid Teacher No. is required.
+                </div>
+             
+             
+            </div>
+
+            <div class="mb-3">
+             
+                <label for="schoolInfo">schoolInfo</label>
+                <input type="text" class="form-control" id="schoolInfo" placeholder="123 main street" value="" required="">
+                <div class="invalid-feedback">
+                   place address
+                </div>
+             
+             
+            </div>
+
+            <div class="mb-3">
+              <label for="mettinglink">Metting link</label>
+              <input type="text" class="form-control" id="meetinglink" placeholder="mettinglink" required="">
+              <div class="invalid-feedback">
+               LInk
+              </div>
+            </div>
+            <hr class="mb-4">
+            <button class="btn btn-primary btn-lg btn-block" type="submit">Save</button>
+          </form>
+        </div>
+      </div>
+
+      <footer class="my-5 pt-5 text-muted text-center text-small">
+        <p class="mb-1">© 2020 EverestWalk.PVT.LTD</p>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Privacy</a></li>
+          <li class="list-inline-item"><a href="#">Terms</a></li>
+          <li class="list-inline-item"><a href="#">Support</a></li>
+        </ul>
+      </footer>
+    </div>
+
+</body>
+</html>
